@@ -1,0 +1,115 @@
+body {
+  background-color: rgb(221, 221, 221);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-family: inherit;
+  gap: 10px;
+  padding-inline: 2em;
+  padding-bottom: 0.4em;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.form-heading {
+  text-align: center;
+  margin: 2em;
+  font-weight: bold;
+  font-size: 1.3em;
+  background-color: transparent;
+  align-self: center;
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 10px;
+  padding: 0.6em;
+  color: black;
+  background-color: transparent;
+  border: 2px solid red;
+}
+
+.form-field.tengah {
+  border: 2px solid black;
+}
+
+.form-field.hasil-decrypt {
+  margin-bottom: 3em;
+  border: 2px solid blue;
+}
+
+.input-field {
+  font-size: 16px;
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: black;
+  padding-inline: 1em;
+}
+
+.input-field.hasil {
+  height: 80px;
+  color: black;
+}
+
+.sendMessage-btn {
+  cursor: pointer;
+  margin-bottom: 3em;
+  padding: 1em;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #ff0000;
+  color: white;
+  font-weight: bold;
+  transition: all ease-in-out 0.3s;
+}
+
+.sendMessage-btn:hover {
+  background-color: #be0202;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.sendMessage-btn.decrypt {
+  margin-top: 3em;
+  margin-bottom: 0;
+  background-color: #002fff;
+}
+
+.sendMessage-btn.decrypt:hover {
+  background-color: #0120a7;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.form-card1 {
+  width: 40%;
+  margin: auto;
+  background-color: blue;
+  background-image: linear-gradient(to bottom right, red, blue);
+  border-radius: 22px;
+  transition: all 0.3s;
+}
+
+.form-card1:hover {
+  box-shadow: 0px 0px 30px 1px blue;
+}
+
+.form-card2 {
+  border-radius: 0;
+  transition: all 0.2s;
+}
+
+.form-card2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
+.form-hasil {
+  word-wrap: break-word;
+}
